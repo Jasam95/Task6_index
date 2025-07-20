@@ -1,0 +1,18 @@
+ body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .equation {
+            background-color: antiquewhite;
+            color: #005;
+            font-size: 25px;
+            text-align: center;
+            padding: 10px;
+            height: 100px;
+            position:relative;
+        }
+        .center {
+            text-align: center;
+            font-weight: bold;
+        }

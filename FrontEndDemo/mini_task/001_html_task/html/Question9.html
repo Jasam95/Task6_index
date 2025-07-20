@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question9</title>
+    <style>
+        .snippet input, 
+        .snippet textarea,
+        .snippet select{
+            color:gray;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post" class="snippet">
+  <!-- Text Input -->
+  <label>Text: <input type="text" name="text" value="Default Text"></label><br><br>
+
+  <!-- Password -->
+  <label>Password: <input type="password" name="password" value="123456"></label><br><br>
+
+  <!-- Email -->
+  <label>Email: <input type="email" name="email" value="user@example.com"></label><br><br>
+
+  <!-- Number -->
+  <label>Number: <input type="number" name="number" value="0"></label><br><br>
+
+  <!-- Date -->
+  <label>Date: <input type="date" name="date" value="yyyy-mm-dd"></label><br><br>
+
+
+  <!-- Checkbox -->
+  <label><input type="checkbox" name="subscribe" checked> Subscribe</label><br><br>
+
+  <!-- Radio Buttons -->
+  <label><input type="radio" name="gender" value="male" checked> Male</label>  <!--checked - default value for checkbox-->
+  <label><input type="radio" name="gender" value="female"> Female</label><br><br>
+
+  <!-- Select Dropdown -->
+  <label>
+    Country:
+    <select name="country">
+     <option value="default" selected>Choose option</option>
+      <option value="in">India</option>
+      <option value="us">USA</option> <!-- selected for default dropdown -->
+      <option value="uk">UK</option>
+    </select>
+  </label><br><br>
+
+  <!-- Textarea -->
+  <label>Comments:<br>
+    <textarea name="comments" rows="4" cols="30">Default comment text</textarea>
+  </label><br><br>
+
+  <!-- Submit -->
+  <input type="submit" value="Submit Form">
+</form>
+
+    
+</body>
+</html>

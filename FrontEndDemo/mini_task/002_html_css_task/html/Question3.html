@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Font Size</title>
+    <style>
+        body {
+            font-size: 30px;    /*initial Screen size*/
+            font-family: Arial, sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Media rule applied,Resize the browser window to see font size change</h2>
+    <p>This paragraph will change font size</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-size: 16px;
+  font: lighter 16px Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    display: flex;
+    margin: 0;
+    padding:  10px;
+}
+span{
+    border:2px solid #555555 ;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+span:hover{
+       color:green;
+      font-size: 20px;
+      font-family:cursive;
+}

@@ -1,0 +1,56 @@
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+         form {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 50%;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        h3{
+            text-align: left;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;     
+        }
+
+
+        .container{
+            display: flex;
+            border: 1px solid grey;
+            border-radius: 5px;
+            min-height: 35px;
+            margin: auto;
+            position: relative;
+
+        }
+
+        .container .label_class{
+              font-size: 16px;
+              margin-left: 10px;
+              margin-top: 10px;
+        }
+
+        .container .container-item{
+            padding: 10px;
+            margin-left: 20px;
+        }
+
+        .container_submit{
+            margin-top: 40px;
+        }
+        
+        

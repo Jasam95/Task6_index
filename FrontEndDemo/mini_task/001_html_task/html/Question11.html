@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Input Types Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }  
+  </style>
+</head>
+<body>
+
+  <h1>All HTML Input Types</h1>
+  <form>
+
+    <!-- Text -->
+    <label for="text">Text:</label>
+    <input type="text" id="text" >
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" value="123456">
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="test@example.com">
+
+    <!-- URL -->
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" value="https://example.com">
+
+    <!-- Number -->
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" value="5">
+
+    <!-- Tel -->
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel" value="1234567890">
+
+    <!-- Search -->
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search" value="query">
+
+    <!-- Date -->
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" value="2025-07-18">
+
+    <!-- DateTime-Local -->
+    <label for="datetime">DateTime-Local:</label>
+    <input type="datetime-local" id="datetime" name="datetime" value="2025-07-18T13:30"><br><br>
+
+     <!-- Search -->
+    <label>Search:<input type="search" name="search" value="HTML inputs"></label><br>
+
+    <!-- Checkbox -->
+    <label>Checkbox:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe" style="display:inline;">Subscribe</label>
+
+    <!-- Radio -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male" style="display:inline;">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female" style="display:inline;">Female</label>
+
+    <!-- URL -->
+    <label>Website: <a href="https://www.google.com/"> Google</label><br><br>
+
+   
+    <!-- Submit -->
+    <input type="submit" value="Submit Form">
+  </form>
+</body>
+</html> 
